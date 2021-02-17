@@ -1,0 +1,49 @@
+<html>
+    <head>
+                <title>Kontaktua</title>
+                <link rel="stylesheet" href="css/Kontaktua.css">
+                <link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+					$(document).ready(function(){
+							$('#menu1').slicknav({prependTo:"#menu2"});
+					});
+		</script>
+    </head>
+    <body>
+        <header>
+            <img  src="img2/narutologo.png" alt="narutologo" style="width: 35%;"img>
+        </header>
+        <nav id="menu1">
+
+            <ul>
+                <li><a href="Index.html" class="boton">Menua</a></li>
+                <li><a href="katalogoapertsonaiena.html"class="boton">Pertsonaiak</a></li>
+                <li><a href="Merchan1.html"class="boton">Erosketak</a></li>
+                <li><a href="Saskia.html"><img src="img2/karrito.png" class="boton" width="25px" height="25px"/></a></li>
+            </ul>
+        </nav>
+        <nav id="menu2"></nav>
+        <main>
+            <h2>Kontaktua</h2>
+            <form action="http://www.formular-chef.com/Formular-Chef.cgi" method="post">
+                <input type="hidden" name="recipient" value="daw20aiag@ikasle.leartik.eus">
+                <p>Zure Izena:</p>
+                <input type="text" name="izena">
+                <p>Zure Abizena:</p>
+                <input type="text" name="izena">
+                <p>E-maila:</p>
+                <input type="text" name="e-maila">
+                <p>Mezua:</p>
+                <textarea name="mezua"></textarea>
+            <div>
+                <input class="boton" type="submit" name="bidali" value="Bidali">
+            </div>
+            </form>    
+        </main>
+        <footer>
+            <p>&copy; Aitors Company</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+* { margin: 0; padding: 0; }
+
+header{
+        margin: 1.96850393700787%;
+        padding: 1.96850393700787%;
+        width: 91.86351706036745%;
+}
+
+body{	
+    border: 1px dotted black;			 
+    width: 85%;
+    margin: auto;               
+}	
+
+nav{		 
+    margin: 1.96850393700787%;
+    padding: 1.96850393700787%;
+    width: 91.86351706036745%;
+}    
+
+nav li{
+             
+    margin-right: 1,312335958005249%;
+    display: inline;
+}
+
+#menu1 img{
+        float: right;
+}
+#menu2{
+    display: none;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 0.86850393700787%;
+    
+    font-weight: 500;
+    font-size: 90%;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+main{
+    margin-left: 1.96850393700787%;
+    margin-bottom: 1.96850393700787%;
+    margin-top: 1.96850393700787%;
+    padding: 1.96850393700787%;
+    width: 60.69343832020997%;
+    align-items: center;
+}
+
+main p{
+    margin-bottom: 1.96850393700787%;
+    margin-top: 1.96850393700787%;
+}
+
+main div input{
+   
+    margin-top: 3.96850393700787%;
+    width: 15%;
+    padding: 0.46850393700787%;
+    background-color: blue;
+    color: cornsilk;
+}
+
+footer{
+				
+    padding: 1.96850393700787%;
+    margin: 1.96850393700787%; 
+    clear: left; 
+}
+@media only screen and (max-width:755px) {
+    #menu1{
+        display: none;
+    }
+
+    #menu2{
+        display: block;
+    }

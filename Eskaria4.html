@@ -1,0 +1,111 @@
+<html>
+    <head>
+                <title>Eskaria4</title>
+                <link rel="stylesheet" href="css/Eskaria4.css">
+                <link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+					$(document).ready(function(){
+							$('#menu1').slicknav({prependTo:"#menu2"});
+					});
+		</script>
+    </head>
+    <body>
+		<header> 
+		    <img  src="img2/narutologo.png" alt="narutologo" style="width: 35%;"img>
+		</header>
+        <nav id="menu1"> 
+			<ul>
+				<li><a href="Index.html"class="boton">Menua</a></li>
+				<li><a href="katalogoapertsonaiena.html"class="boton">Pertsonaiak</a></li>
+                <li><a href="Kontaktua.html"class="boton">Kontaktua</a></li>
+                <li><a href="Merchan1.html"class="boton">Erosketak</a></li>
+            </ul>
+        </nav>
+        <nav id="menu2"></nav>
+        <main>
+            <h2>Eskaria</h2>
+            <h3>Kreditu txartelaren Datuak</h3>
+<table>
+    <tr>
+        <td>Mota:</td>
+        <td><form method="POST" action="tratamiento.php">
+            <p>
+                <label for="Pagar"></label>
+                <select name="Pagar" id="Pagar">
+                    <option value="Visa">Visa</option>
+                    <option value="KT">Kreditu Txartela</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+            </p>
+        </form></td>
+    </tr>
+    <tr id="Bestik">
+        <td>Titularra:</td>
+        <td><input type="text" name="izena" style="width: 90%"></td>
+    </tr>
+    <tr id="Bestik">
+        <td>Zenbakia:</td>
+        <td><input type="text" name="izena" style="width: 90%"></td>
+    </tr>
+    <tr id="Bestik">
+        <td>Iraungitze-data(hh/uu):</td>
+        <td>
+                <p>
+                    <label for="Mes"></label>
+                    <select name="Mes" id="Mes">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label for="Año"></label>
+                    <select name="Año" id="Año">
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                        <option value="2034">2034</option>
+                        <option value="2035">2035</option>
+                        <option value="2036">2036</option>
+                        <option value="2037">2037</option>
+                        <option value="2038">2038</option>
+                        <option value="2039">2039</option>
+                        <option value="2040">2040</option>
+                    </select>
+                </p>
+         </td>
+    </tr>
+    <tr id="Bestik">
+        <td>CVC:</td>
+        <td><input type="text" name="izena" style="width: 30%"></td>
+    </tr>
+    
+</table>
+<a href="Eskaria5.html"class="boton">Eskaria bidali</a>
+</main>
+</body>
+<footer>
+    <p>&copy; Aitors Company</p>
+</footer>
+</body>
+</html>

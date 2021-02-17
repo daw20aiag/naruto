@@ -1,0 +1,180 @@
+* { margin: 0; padding: 0; }
+body {
+					 
+				 width: 85%;
+				 margin: auto;
+				 margin-top: 0px;					 
+	}	
+		
+header{
+				 margin: 1.96850393700787%;
+				 padding: 1.96850393700787%;
+				 width: 91.86351706036745%;
+				 
+	}
+		
+	
+nav{
+				 
+                 margin: 1.96850393700787%;
+				 padding: 1.96850393700787%;
+				 width: 91.86351706036745%;
+    }
+    
+.boton{
+		text-decoration: none;
+		padding: 0.86850393700787%;;
+		
+		font-weight: 500;
+		font-size: 90%;
+		color: #ffffff;
+		background-color: #1883ba;
+		border-radius: 6px;
+		border: 2px solid #0016b0;
+    }
+    
+.boton:hover{
+		color: #1883ba;
+		background-color: #ffffff;
+    }
+
+nav li{
+				 
+        margin-right: 1,312335958005249%;
+        display: inline;
+    }
+#menu1 img{
+        float: right;
+    }
+
+    #menu2{
+        display: none;
+    }
+
+main section{
+            display: grid;
+            grid-template: 200px 150px / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            row-gap: 15px;
+            column-gap: 15px;
+}
+#Mangak {
+            grid-row: 1/2;
+            grid-column: 1/span 3;
+            border: 1px dotted black;
+}
+#Jokoak {
+    grid-row: 1/2;
+    grid-column: 4/span 3;
+    border: 1px dotted black;
+}
+#Klaserako_Gauzak {
+    grid-row: 1/2;
+    grid-column: 7/span 3;
+    border: 1px dotted black;
+}
+#Armak {
+    grid-row: 1/2;
+    grid-column: 10/span 3;
+    border: 1px dotted black;
+}
+#Figuritak {
+    grid-row: 2/3;
+    grid-column: 2/span 2;
+    border: 1px dotted black;
+}
+#Eguneroko {
+    grid-row: 2/3;
+    grid-column: 4/span 2;
+    border: 1px dotted black;
+}
+#Kamisetak {
+    grid-row: 2/3;
+    grid-column: 6/span 2;
+    border: 1px dotted black;
+}
+#Prakak {
+    grid-row: 2/3;
+    grid-column: 8/span 2;
+    border: 1px dotted black;
+}
+#Jertsak {
+    grid-row: 2/3;
+    grid-column: 10/span 2;
+    border: 1px dotted black;
+}
+
+main {
+				
+    margin-left: 1.96850393700787%;
+    margin-bottom: 1.96850393700787%;
+    margin-top: 1.96850393700787%;
+     padding: 1.96850393700787%;
+   
+    float: left;
+   }
+main h2{
+        margin-bottom: 2.96850393700787%;;
+   }
+main h3{
+        margin-top: 3.96850393700787%;
+        font-family: courier,arial,helvetica;
+}
+
+
+
+footer {
+				
+    padding: 1.96850393700787%;
+    margin: 1.96850393700787%; 
+    clear: left; 
+}
+
+@media only screen and (max-width:855px) {
+        main section{
+                grid-template: repeat(9,auto)/1fr;
+        }
+        #Mangak {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+        #Jokoak {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        #Klaserako_Gauzak {
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+        #Armak {
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+        #Figuritak {
+            grid-row: 5/6;
+            grid-column: 1/2;
+        }
+        #Eguneroko {
+            grid-row: 6/7;
+            grid-column: 1/2;
+        }
+        #Kamisetak {
+            grid-row: 7/8;
+            grid-column: 1/2;
+        }
+        #Prakak {
+            grid-row: 8/9;
+            grid-column: 1/2;
+        }
+        #Jertsak {
+            grid-row: 9/10;
+            grid-column: 1/2;
+        }
+        #menu1{
+            display: none;
+        }
+
+        #menu2{
+            display: block;
+        }
+    }
+}

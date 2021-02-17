@@ -1,0 +1,137 @@
+
+* { margin: 0; padding: 0; }
+			   
+html{
+	
+	background-image: url("../img/Mangak/manga1.jpg") ; 
+	background-repeat: round;
+	
+	}
+	body {
+					 
+				 width: 85%;
+				 margin: auto;
+				 margin-top: 0px;					 
+			}	
+		
+	header{
+				 margin: 1.96850393700787%;
+				 margin-bottom: 11.96850393700787%;
+				 padding: 1.96850393700787%;
+				 width: 91.86351706036745%;
+				 
+		}
+		
+	
+	nav{
+				 
+				 margin: 1.96850393700787%;
+				 padding: 1.96850393700787%;
+				 width: 91.86351706036745%;
+		}
+	.boton{
+		text-decoration: none;
+		padding: 0.86850393700787%;;
+		
+		font-weight: 500;
+		font-size: 90%;
+		color: #ffffff;
+		background-color: #1883ba;
+		border-radius: 6px;
+		border: 2px solid #0016b0;
+	}
+	.boton:hover{
+		color: #1883ba;
+		background-color: #ffffff;
+	  }
+		
+ nav li{
+				 
+				 margin-right: 1,312335958005249%;
+				 display: inline;
+				
+		 }
+#menu1  img{
+float: right;
+		 }
+			
+#menu2{
+	display: none;
+}
+	footer {
+				
+				 padding: 1.96850393700787%;
+				 margin: 1.96850393700787%; 
+				 clear: left; 
+			 }
+
+	main{
+		margin: 1.96850393700787%;
+		width: 96.69343832020997%;
+		display: flex;
+		justify-content: space-between;
+	}
+	section {
+				  padding: 2.04918032786885%;
+				  width: 54.6448087431694%;
+				}
+	section p{
+		color: rgb(255, 255, 255);
+		background-color: rgb(0, 0, 0);
+		font-style:inherit;
+		margin-top: 1.96850393700787%;
+		margin-bottom: 1.96850393700787%;
+		margin-right: 11.96850393700787%;
+	}
+	section video{
+		width: 90%;
+	}
+	section audio{
+		width: 90%;
+	}
+	
+	
+	 aside {
+				color:rgb(0, 0, 0);
+				padding: 2.04918032786885%;
+				width: 34.56284153005464%;
+				 
+				 }
+				 aside a{
+					color:rgb(136, 255, 0);
+				 }
+				 
+	 aside img{
+				 margin-bottom: 12%;
+				 padding: 1.96850393700787%;
+				 
+				 }
+				 
+	header img{
+				 float: left;
+				 margin-right: 1.96850393700787%;
+				 width: 91.86351706036745%;
+				 }
+
+@media only screen and (max-width:755px) {
+			#menu1{
+				display: none;
+			}
+
+			#menu2{
+				display: block;
+			}
+			main {
+					flex-direction: column;
+				}
+			section{
+				margin-bottom: 2.04918032786885%;
+				width: 95.69343832020997%;
+			}
+			aside{
+				width: 95.69343832020997%;
+			}
+			
+		}
+				 
+	

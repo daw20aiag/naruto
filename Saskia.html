@@ -1,0 +1,70 @@
+<html>
+    <head>
+                <title>Saskia</title>
+                <link rel="stylesheet" href="css/Saskia.css">
+                <link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+					$(document).ready(function(){
+							$('#menu1').slicknav({prependTo:"#menu2"});
+					});
+		</script>
+    </head>
+    <body>
+		<header> 
+		    <img  src="img2/narutologo.png" alt="narutologo" style="width: 35%;"img>
+		</header>
+        <nav id="menu1">
+			<ul>
+				<li><a href="Index.html"class="boton">Menua</a></li>
+				<li><a href="katalogoapertsonaiena.html"class="boton">Pertsonaiak</a></li>
+                <li><a href="Kontaktua.html"class="boton">Kontaktua</a></li>
+                <li><a href="Merchan1.html"class="boton">Erosketak</a></li>
+            </ul>
+        </nav>
+        <nav id="menu2"></nav>
+        <main>
+            <h2>Saskia</h2>
+            <h3>Aukeratutako Produktuak</h3>
+            <table>
+                    <tr>
+                        <td>Produktua</td>
+                        <td>Salneurria</td>
+                        <td>Kopurua</td>
+                        <td>Guztira</td>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Itachi Figura</td>
+                        <td>38,78&euro;</td>
+                        <td><input name="kopuru" type="number" min="1" max="10" value="1"></td>
+                        <td>38,78&euro;</td>
+                        <td>
+                            <input class="Ezabatu" type="reset" name="Ezabatu" value="Ezabatu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Shuriken</td>
+                        <td>23,90&euro;</td>
+                        <td><input name="kopuru" type="number" min="1" max="10" value="1"></td>
+                        <td>23,90&euro;</td>
+                        <td>
+                            <input class="Ezabatu" type="reset" name="Ezabatu" value="Ezabatu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Guztira</td>
+                        <td>62,68&euro;</td>
+                    </tr>
+            </table>
+            <a href="Eskaria1.html"class="boton">Eskaria Egin</a>
+
+        </main>
+        <footer>
+            <p>&copy; Aitors Company</p>
+        </footer>
+    </body>
+</html>

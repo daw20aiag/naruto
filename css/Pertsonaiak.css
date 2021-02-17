@@ -1,0 +1,89 @@
+
+			* { margin: 0; padding: 0; }
+			   
+				html{
+                    background-image: url("../img/Mangak/manga2.jpg") ; 
+	                background-repeat: round;
+                }
+				body {
+					 
+                    width: 85%;
+                  margin: auto;
+                    				 
+               }	
+					
+					
+                    header{
+                        margin: 1.96850393700787%;
+                        padding: 1.96850393700787%;
+                        width: 91.86351706036745%;
+                        
+					
+                    }
+                    
+                    main {
+                        background-color: blanchedalmond;
+                        margin-left: 1.96850393700787%;
+                        margin-bottom: 1.96850393700787%;
+                        margin-top: 1.96850393700787%;
+                         padding: 1.96850393700787%;
+                         width: 56.69343832020997%;
+                        
+                       }
+                    
+
+                    nav{
+                        
+                        margin: 1.96850393700787%;
+                        padding: 1.96850393700787%;
+                        width: 91.86351706036745%;
+					
+                    }
+                    nav li{
+				 
+                        margin-right: 1,312335958005249%;
+                        display: inline;
+                       
+                }
+                #menu1  img{
+                    float: right;
+                }
+
+                #menu2{
+                    display: none;
+                }
+                    .boton{
+                        text-decoration: none;
+                        padding: 0.86850393700787%;;
+                        
+                        font-weight: 500;
+                        font-size: 90%;
+                        color: #ffffff;
+                        background-color: #1883ba;
+                        border-radius: 6px;
+                        border: 2px solid #0016b0;
+                    }
+                    .boton:hover{
+                        color: #1883ba;
+                        background-color: #ffffff;
+                      }
+                      footer {
+                        background-color: blanchedalmond;
+                        padding: 1.96850393700787%;
+                        margin: 1.96850393700787%; 
+                        clear: left; 
+                    }
+					
+					
+				 li{
+					margin: 5px;
+					}
+@media only screen and (max-width:755px) {
+    #menu1{
+         display: none;
+    }
+            
+    #menu2{
+         display: block;
+    }
+}
